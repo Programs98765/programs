@@ -1,0 +1,35 @@
+body{
+ background-color:black;
+}
+h3{
+  color:red;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+p{
+ color: White;
+ font-variant:small-caps;
+ font-size:x-large;
+ font-style:italic;
+ font-weight:bolder;
+ text-indent:65px;
+ text-decoration:blink;
+
+}
+a:active {
+ background-color:purple;
+ color: yellow;
+}
+a:active {
+  color: green;
+  background-color:red;
+}
+a:hover {
+ background-color:green;
+  color:red;
+}
+a:visited {
+ color:orange;
+ background-color:pink;
+}
