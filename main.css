@@ -9,7 +9,6 @@ h3{
 
 p{
  color: White;
- font-variant:small-caps;
  font-size:x-large;
  font-style:italic;
  font-weight:bolder;
@@ -32,4 +31,10 @@ a:hover {
 a:visited {
  color:orange;
  background-color:pink;
+}
+h2{
+ color:red;
+ text-align:center;
+ font-size:100px;
+ font-variant:small-caps;
 }
