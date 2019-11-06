@@ -16,6 +16,9 @@ p{
  text-decoration:blink;
 
 }
+a{
+  font-size:60px;
+}
 a:active {
  background-color:purple;
  color: yellow;
