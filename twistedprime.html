@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>twisted prime</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<h2>twisted prime</h2>
+<p><br>
+def prime(a):<br>
+&nbsp;comp=0<br>
+&nbsp;for i in range(2,a):<br>
+&nbsp;&nbsp;if(a%i==0):<br>
+&nbsp;&nbsp;&nbsp;comp=1<br>
+&nbsp;&nbsp;&nbsp;break<br>
+&nbsp;return comp<br>
+n=int(input())<br>
+k=prime(n)<br>
+f=0<br>
+while(n>0):<br>
+&nbsp;d=n%10<br>
+&nbsp;f=f*10+d<br>
+&nbsp;n=n//10<br>
+r=prime(f)<br>
+if(r==k==0):<br>
+&nbsp;print('yes')<br>
+else:<br>
+&nbsp;print('no')
